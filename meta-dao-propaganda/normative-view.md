@@ -1,24 +1,29 @@
-*There are two ways to view things: normatively and positively. When you look at something normatively, you try determine what **should** be the case. When you look at something positively, you try to determine what **is or will be** the case. This post will be normative propaganda for the Meta-DAO. A follow-on post will be positive propaganda.*
+# Why built the Meta-DAO (Part 1)
+
+*There are two ways to view things: normatively and positively. When you look at something normatively, you try determine what **should** be the case. When you look at something positively, you try to determine what **is or will be** the case. This post will be normative and the following post will be positive.*
 
 We live in an age of corrupt institutions. Institutions that reward those who capture credit more than those who create value. Institutions that are dominated by a few elite who use their power to create local benefits despite greater global costs.
 
 Consider the following forces shaping our world:
-- incument firms utilizing regulatory capture to stifle new innovation
-- politicians transferring wealth to voters and bureaucrats to remain in power, at the cost of large amounts of debt that eventually cripple the country's economy
-- boards of directors being in theory accountable to the shareholders but in practice only accountable to their peers, so that the best strategy for retaining directorships is conformity
-- management teams focusing more on appeasing their mis-aligned boards of directors than growing the company
-- capital allocators that are also in theory accountable to some group but are in practice only accountable to others in the investment management industry, so that the optimal career strategy is conformity and 'hugging benchmarks' (i.e., 'who else has committed?')
+- Incument firms and regulators collude to stifle new innovation.[^1]
+- Management teams and boards of directors focus more on optics than creating shareholder value.[^2]
+- Politicians do whatever it takes to remain in power, even if this means crippling their country / province / state with debt.[^3]
+- Investors optimize for factors other than risk-adjusted returns, such as status and whether they will be blamed if an investment goes sour.[^4]
 
-This world is succinctly captured in the phrase "who you know is more important than what you know." In it, everyone is looking good and nothing is getting done.*
+Of course, this is not true of every case. There are management teams that focus only on shareholder value, investors that focus only on risk-adjusted returns, and even politicians that focus only on constituent well-being. But these are the exceptions.
 
-We declare that what you know is more important than who you know. That institutions should be dominated by markets and not committees. That genius should be elevated and mediocrity lowered. That the land of milk and honey belongs to those who produce the milk and the honey, not to those who skim off the top. 
+The reason for this is systemic. To demonstrate, let us consider the case of management teams and boards of directors. Because the vast majority of shareholders are uninvolved in corporate governance, management teams and boards of directors are largely free to do as they see fit.[^4] Given this, is it an accident that humans in this position focus less on maximizing shareholder value and more on maximizing their career prospects? Given that agreeableness is generally socially beneficial, is it an accident that board directors and managers tend to be conformists? Thus it is not a problem with the individuals but a problem with the system.
 
-We shall build an organization which attempts to meet these lofty goals. It will use experimental mechanisms to coordinate human beings in the pursuit of producing products and profits. Undoubtedly, some of these experiments will fail. Equally undoubtedly, some of these will succeed, and these will be the ones that matter.
+When a system is broken, you have three main options to choose from:
+1. Continue on with life but adopt a more cynical attitude.
+2. Reform the existing system.
+3. Build an alternative system. 
 
-To those who are considering joining, I cannot claim that this will be an easy path. You will have difficulty explaining what you are working on to your family, your friends, your present and former colleagues. Further, there will doubtless be dead-ends - products that don't gain traction immediately, optimizations that make things worse, team structures that don't end up making sense. 
-
-But the wheels of history are not moved by those who dwell too long on these risks. Edison didn't, after hundreds of unsuccessful trials, consider that it couldn't be done. Neither did the Wright Brothers read too much into the story of Icarus. Neither did the founders of Solana decide "oh well, I guess Ethereum's already gotten network effects, so it's probably not worth trying." History, and technology, is made by those who rise to the challenge instead of bowing out.
+We adopt #3. We will build a new system for coordinating humans in technology production and wealth creation. We will call it the Meta-DAO.
 
 Proph3t
 
-*Entrepeneurs can, and ocasionally do, disrupt this system. Netflix can beat Blockbuster. Amazon can beat Walmart. DeFi projects built on Solana can beat the existing financial services industry. But what happens when the entrepeneurs die or retire? The exciting upstart becomes the ossified public company, and the process repeats itself.
+[^1]: Wikipedia page on regulatory capture
+[^2]: TODO
+[^3]: Japan, US
+[^4]: The two things that they need to worry about are activist investors and lawsuits. Both of these factors incentivize management teams and the boards of directors to avoid risky but potentially beneficial projects. If a risky project goes well, the board sees little financial upside. If it goes poorly, they may be sued.

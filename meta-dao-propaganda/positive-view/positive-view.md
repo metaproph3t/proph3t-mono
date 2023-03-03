@@ -1,7 +1,5 @@
 ## Introduction
 
-*The reader is assumed to have knowledge of the concept of the time-value of money*
-
 Perhaps you accept the fact that the world is filled with corrupt institutions. You may wonder if anything can be done.
 
 We will explore this question in this post. We will do this in three stages:
