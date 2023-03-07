@@ -56,28 +56,41 @@ Simply, the idea is as follows:
 
 We can see something akin to this in states where religious leaders have a lot of power, such as the historical Holy Roman Empire or the modern-day Islamic Republic of Iran. Communist states are another example.
 
-There are many problems with philosopher kingdoms. Chief among these is the fact that it is hard to separate altruists from non-altruists. Even if we forbid leaders from holding wealth, we may still end up with leaders who focus only on local benefits and costs (e.g., power-hungry people).
+There are many problems with philosopher kingdoms. Chief among these is finding true altruists who would ignore local costs and benefits. If any humans exist like this, they are few and far between.
 
-### Internalize decision-maker externalities
+### Aligning incentives
+
+As mentioned, the world does not contain many true altruists. On the other hand, quite a few people follow the 'greedy' decision-making algorithm depicted below.
+
+```rust
+// greedy decision-maker algorithm
+if expected_local_benefit(action) > expected_local_cost(action) {
+    do(action);
+} else {
+    disregard(action);
+}
+```
 
 A more practical approach, and one that has gained wide adoption, is to 'align incentives.' In other words, to *create* local costs that correspond to global costs and local benefits that correspond to global benefits.
 
 ![externality internalization](media/externality-internalization.excalidraw.png)
 
-When a company is founder-led, there is strong alignment between the founder's local costs and benefits and the company's global costs and benefits. This is because the founder has a significant financial and emotional stake in the company's success. The founder is likely to focus on what's best for the company.
+When incentives are aligned perfectly, humans following the greedy decision-maker algorithm will make decisions as if they were following the optimal algorithm. 
 
-Another positive example is in markets. In a market, you need to produce something of value in order to turn a profit. Therefore, profit-maximization ('greediness') will more or less benefit overall welfare.
+Some examples of this principle at work include:
+- **Democracies**: since politicians are elected by voters, politicians want to do things that make voters happy and avoid doing things that make voters unhappy.
+- **Public companies**: like democracies, only where professional managers are elected by shareholders. Most public companies also attempt to incentivize their management teams through stock ownership.
+- **Hierarchical bureaucracies**: like democracies, only where employees are hired and fired by managers. 
+- **Ethical systems**: most cultural and religious ethical systems find it virtuous to create global benefits and immoral to create global costs. The Golden Rule and most of the Ten Commandments are examples of this. When an institution shares these beliefs, social status is given to those who create global benefits and is taken from those who create global costs.
 
-However, this system also has its shortcomings. 
+Although better than philosopher kingdoms, aligning incentives has its own list of shortcomings. The most important among these are information and incentives. 
 
-It's had *some* success in the following instantiations:
-- Cultures & religions that praise altruists (honor, virtue, loving thy neighbor, etc.)
-- Management and employee stock plans
-- Democracies
-- Public companies
-- Hierarchical bureaucracies
+To put it succinctly, management teams, politicians, and supposedly ethical people can often be successful within these systems even if they are "talking the talk, but not walking the walk." There is insufficient incentive to monitor these people to ensure that they are acting in the group's interest.
 
-These systems all have their own shortcomings. A common one across cultures, religions, democracies, and public companies, is that they each suffer from tragedies of the commons. For example, a shareholder of a public company has a very limited incentive to determine which board members are pushing the company forward instead of just pushing their career forward. This is also why token-voting DAOs won't work over the long-term.
+### Atomize!
+
+
+
 
 ## The Meta-DAO's approach
 
