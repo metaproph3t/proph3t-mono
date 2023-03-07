@@ -1,4 +1,4 @@
-# Why built the Meta-DAO (Part 1)
+# Why build the Meta-DAO (Part 1)
 
 *There are two ways to view things: normatively and positively. When you look at something normatively, you try determine what **should** be the case. When you look at something positively, you try to determine what **is or will be** the case. This post will be normative and the following post will be positive.*
 
@@ -8,11 +8,11 @@ Consider the following forces shaping our world:
 - Incument firms and regulators collude to stifle new innovation.[^1]
 - Management teams and boards of directors focus more on optics than creating shareholder value.[^2]
 - Politicians do whatever it takes to remain in power, even if this means crippling their country / province / state with debt.[^3]
-- Investors optimize for factors other than risk-adjusted returns, such as status and whether they will be blamed if an investment goes sour.[^4]
+- Institutional investors optimize for factors other than risk-adjusted returns, such as status and whether they will be blamed if an investment goes sour.[^4]
 
-Of course, this is not true of every case. There are management teams that focus only on shareholder value, investors that focus only on risk-adjusted returns, and even politicians that focus only on constituent well-being. But these are the exceptions.
+Professional managers, board members, institutional investors, and politicians are more alike than you might think. All ostensibly serve the interests of a group. All really serve their own interests. Sometimes the two can align
 
-The reason for this is systemic. To demonstrate, let us consider the case of management teams and boards of directors. Because the vast majority of shareholders are uninvolved in corporate governance, management teams and boards of directors are largely free to do as they see fit.[^4] Given this, is it an accident that humans in this position focus less on maximizing shareholder value and more on maximizing their career prospects? Given that agreeableness is generally socially beneficial, is it an accident that board directors and managers tend to be conformists? Thus it is not a problem with the individuals but a problem with the system.
+In each of these cases, the person or people taking the action benefit from their action, but the group as a whole loses. 
 
 When a system is broken, you have three main options to choose from:
 1. Continue on with life but adopt a more cynical attitude.

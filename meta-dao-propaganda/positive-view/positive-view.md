@@ -1,35 +1,28 @@
-## Introduction
+## Why build the Meta-DAO (Part 2)
 
-Perhaps you accept the fact that the world is filled with corrupt institutions. You may wonder if anything can be done.
-
-We will explore this question in this post. We will do this in three stages:
-1. defining the problem clearly,
-2. discussing prior approaches to the problem,
-3. and describing the mechanisms of the Meta-DAO.
+This post is designed to answer two questions:
+- What *exact* problem is the Meta-DAO designed to solve? 
+- How did humans deal with this problem before?
 
 ## The Problem
 
 In any given institution (an economy, a firm, a nation, etc.), decisions need to be made. These decisions have consequences. We can group these consequences into two categories:
-- local consequences: those that impact the person who's making the decision
-- global consequences: those that impact the members of the institution as a whole
+- **local consequences**: those that impact the person who's making the decision
+- **global consequences**: those that impact the members of the institution as a whole
 
-We can also separate between the beneficial and the harmful consequences.
+We can also divide consequences into those that are **harmful** and **beneficial**.
 
-Given this, we can map all of a decision's consequences onto the following matrix:
+This maps onto the following matrix:
 
 ![2x2matrix](media/decision2x2.excalidraw.png)
 
-For example, a decision by a politician to distribute cash payments to his or her constitutions may be mapped like so:
+Suppose that a politician is deciding whether or not to distribute cash payments to his or her constituents during an economic downturn. We can map this action onto the matrix like so:
 
 ![airdrop2x2](media/airdrop2x2.excalidraw.png)
 
-If we put political dogma aside, it becomes apparent that distributing cash payments makes sense in some scenarios and does not make sense in some others.
+In general, we want decision-makers to take actions iff their global benefits outweigh their global costs. 
 
-For example, consider a world where the government can borrow cheaply, the cost of distributing payments is low, and all citizens will invest their money at a high interest rate. In this world, borrowing money to distribute cash payments makes sense.
-
-Inverseley, in a world where the government can only borrow at a high rate, the cost of distributing payments is high, and citizens would use the money to buy things that wouldn't make them happy, borrowing money to distribute cash payments does not make sense.
-
-If we generalize, we find that we would like decision-makers to take decisions if, and only if, their global benefits outweigh their global costs. This can be represented in algorithmic form:
+Stated in other terms, we would like decision-makers to follow the below algorithm.
 
 ```rust
 // ideal decision-maker algorithm
@@ -40,9 +33,9 @@ if expected_global_benefit(action) > expected_global_cost(action) {
 }
 ```
 
-Imagine a society where humans had this algorithm imprinted into their brain. The vast majority of actions taken in this society would be a step forward for the society as a whole. Steps back would only be a result of lack of information, not bad intent or misaligned incentives. By this time, this society would be many steps ahead of our own - with abundant goods for all humans, technological advances beyond our collective comprehension, colonies on multiple planets, etc.
+Observe that this algorithm optimizes for "the greatest good for the greatest number." By definition, it is the best algorithm for the institution's stakeholders as a whole.[^1]
 
-Of course, humans do not tend to make decisions in this way. The central problem in designing institutions is creating mechanisms such that groups of people can *simulate* this ideal.
+You may observe a problem here, which is that most humans do not follow this algorithm when deciding whether to take an action. From this, we see the crux of the problem: **how do you design mechanisms such that an institution functions like all of its members are following the ideal decision-maker algorithm?** This problem will make more sense as we explain prior approaches.
 
 ## Prior approaches
 
@@ -54,6 +47,8 @@ There have been three prominent approaches to this problem. We will call these:
 ### Philosopher kingdoms
 
 ![how an altruistic decision-maker would make decisions](media/altruistic-decision-maker.excalidraw.png)
+
+
 
 Plato first described this approach in *The Republic*. He thought that most people were dumb and/or greedy, but that some were both intelligent and altruistic. A philosopher kingdom tries to identify these individuals and then gives them all the power. The theory is that they will ignore their local costs and benefits and only focus on the betterment of the group as a whole.
 
@@ -79,3 +74,5 @@ These systems all have their own shortcomings. A common one across cultures, rel
 ## The Meta-DAO's approach
 
 
+
+[^1]: Those of the libertarian political persuasion might feel unease when reading statements such as this. It is really only the anarchists (a tiny fraction of the population) who is fundamentally opposed to this statement. Consider, for example, homicide laws. The vast majority of people would be against the legalization of homicide. Why? Because most humans would value human life more than any benefit the killer would likely achieve. However, when the scales are flipped, and killing the person would bring about global benefits (e.g., a terrorist leader, a genocidier, Hitlet, et cetera), more people are inclined to believe that killing is okay. It is always a matter of global costs and benefits; different political groups are usually in contention over the best method of maximizing global welfare. Communists believe that global welfare is best maximized under controlled economies; neoliberals believe that it is best maximized under free markets and democracies; et cetera.
