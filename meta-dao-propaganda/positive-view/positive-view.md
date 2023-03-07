@@ -35,7 +35,7 @@ if expected_global_benefit(action) > expected_global_cost(action) {
 
 Observe that this algorithm optimizes for "the greatest good for the greatest number." By definition, it is the best algorithm for the institution's stakeholders as a whole.[^1]
 
-You may observe a problem here, which is that most humans do not follow this algorithm when deciding whether to take an action. From this, we see the crux of the problem: **how do you design mechanisms such that an institution functions like all of its members are following the ideal decision-maker algorithm?** This problem will make more sense as we explain prior approaches.
+You may observe a problem here, which is that most humans do not follow this algorithm when deciding whether to take an action. From this, we see the crux of the problem: **how do you design mechanisms such that an institution functions like its members are following the ideal decision-maker algorithm?** This problem will make more sense as we explain prior approaches.
 
 ## Prior approaches
 
@@ -46,23 +46,31 @@ There have been three prominent approaches to this problem. We will call these:
 
 ### Philosopher kingdoms
 
+Even if not every human follows the optimal decision-making algorithm, it is possible that some people do. This is the key insight behind philosopher kingdoms, as described by Plato in *The Republic*.
+
+Simply, the idea is as follows:
+- Find and cultivate clear-thinking altruists, those who ignore local costs and benefits and instead only care about global costs and benefits.
+- Consolidate all power to make decisions in them.
+
 ![how an altruistic decision-maker would make decisions](media/altruistic-decision-maker.excalidraw.png)
 
+We can see something akin to this in states where religious leaders have a lot of power, such as the historical Holy Roman Empire or the modern-day Islamic Republic of Iran. Communist states are another example.
 
-
-Plato first described this approach in *The Republic*. He thought that most people were dumb and/or greedy, but that some were both intelligent and altruistic. A philosopher kingdom tries to identify these individuals and then gives them all the power. The theory is that they will ignore their local costs and benefits and only focus on the betterment of the group as a whole.
-
-- founder-led companies
-- catholic church
-- dictatorships
+There are many problems with philosopher kingdoms. Chief among these is the fact that it is hard to separate altruists from non-altruists. Even if we forbid leaders from holding wealth, we may still end up with leaders who focus only on local benefits and costs (e.g., power-hungry people).
 
 ### Internalize decision-maker externalities
 
-Another approach is to say, 'okay, humans aren't alruistic, but what if I can design decision-maker incentives such that what's in the interest of the group is in their interest?'
+A more practical approach, and one that has gained wide adoption, is to 'align incentives.' In other words, to *create* local costs that correspond to global costs and local benefits that correspond to global benefits.
 
 ![externality internalization](media/externality-internalization.excalidraw.png)
 
-This approach has had varying degrees of success. In markets, where profit-maximizers need to produce things of value to maximize their profits, it's been very successful. It's had *some* success in the following instantiations:
+When a company is founder-led, there is strong alignment between the founder's local costs and benefits and the company's global costs and benefits. This is because the founder has a significant financial and emotional stake in the company's success. The founder is likely to focus on what's best for the company.
+
+Another positive example is in markets. In a market, you need to produce something of value in order to turn a profit. Therefore, profit-maximization ('greediness') will more or less benefit overall welfare.
+
+However, this system also has its shortcomings. 
+
+It's had *some* success in the following instantiations:
 - Cultures & religions that praise altruists (honor, virtue, loving thy neighbor, etc.)
 - Management and employee stock plans
 - Democracies
