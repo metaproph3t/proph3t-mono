@@ -85,15 +85,28 @@ Some examples of this principle at work include:
 
 Although better than philosopher kingdoms, aligning incentives has its own list of shortcomings. The most important among these are information and incentives. 
 
-To put it succinctly, management teams, politicians, and supposedly ethical people can often be successful within these systems even if they are "talking the talk, but not walking the walk." There is insufficient incentive to monitor these people to ensure that they are acting in the group's interest.
+For example, consider the cases of public companies and democracies. Both follow a similar structure where a group of stakeholders (shareholders or constituents) vests power in a central group of administrators. These administrators are expected to serve the interests of the stakeholders.
+
+![stakeholders vest power in administrators](media/StakeholderAdministratorRelationship.excalidraw.png)
+
+The problem is that while it is in the interest of the stakeholders as a group to watch over the administrators, each stakeholder only has a small incentive to do so. Most citizens do not look up the voting records of their political representatives. Most shareholders do not vote in proxy meetings. Without this feedback, the administrators end up weighing global costs and benefits much less than would be in the interest of the stakeholders.
 
 ### Atomize!
 
+One way to get around the fundamental problem of institutions is to stop using them. 
+
+
+To demonstrate, consider the hypothetical city of Burokratio. 
+
+In Burokratio, the politicians always promise to follow the ideal decision-maker algorithm but always end up following the greedy algorithm. Instead of making any decisions or managing government affairs, they spend all of their time attending political rallies and handing out government money to those that attend.
+
+Eventually, the citizens of Burokratio get tired of this routine, and each 
 
 
 
-## The Meta-DAO's approach
+![hayden tweet](media/HaydenTweet.png)
 
 
+#### Footnotes
 
 [^1]: Those of the libertarian political persuasion might feel unease when reading statements such as this. It is really only the anarchists (a tiny fraction of the population) who is fundamentally opposed to this statement. Consider, for example, homicide laws. The vast majority of people would be against the legalization of homicide. Why? Because most humans would value human life more than any benefit the killer would likely achieve. However, when the scales are flipped, and killing the person would bring about global benefits (e.g., a terrorist leader, a genocidier, Hitlet, et cetera), more people are inclined to believe that killing is okay. It is always a matter of global costs and benefits; different political groups are usually in contention over the best method of maximizing global welfare. Communists believe that global welfare is best maximized under controlled economies; neoliberals believe that it is best maximized under free markets and democracies; et cetera.
