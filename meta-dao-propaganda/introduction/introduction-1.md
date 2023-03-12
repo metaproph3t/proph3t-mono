@@ -10,6 +10,15 @@ In this series, we will cover the following topics, with one post per topic:
 
 ## What is the problem that all institutions need to solve?
 
+**TL;DR**:
+- All institutions, regardless of their size or type, face the challenge of aligning their members' actions with the institution's goals.
+- Global costs and benefits refer to effects that impact the institution as a whole, while local costs and benefits refer to effects that impact the individual taking the action.
+- The best scenario is when people take actions if, and only if, they predict that the action's global benefits will outweigh the action's global costs.
+- However, humans tend to make decisions based on a 'greedy' or 'irrational' algorithm that focuses on local costs and benefits or conformity with peer groups.
+- The problem is designing an institution in such a way that they simulate the ideal.
+
+--- 
+
 Institutions are ubiquitous in human society, ranging from small cooperatives to massive multinational corporations and nation-states. Despite their varied forms and functions, all institutions share a common challenge: **how to ensure that the actions of their members are aligned with the institution's goals**.
 
 To further understand this problem, we can analyze the effects of actions along two axes: global versus local, and costs versus benefits. We encapsulate this in the following matrix:
