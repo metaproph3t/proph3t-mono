@@ -6,33 +6,39 @@ There are [8 key innovations](https://medium.com/solana-labs/7-innovations-that-
 
 Most people in the Solana ecosystem understand *how* PoH works, at least at a high-level. Few understand *why* it is needed. This is what we will unpack in this post.
 
----
+## Context
 
 Suppose that you and two friends want to build a blockchain. Because you want the blockchain to be decentralized, each of you will run a node. Your nodes will take turns producing blocks, like this:
 
-![leader schedule](media/leader-schedule.excalidraw.png)
+![leader schedule](media/leader-schedule.png)
 
-This is a *leader schedule*. Leaders are scheduled into *slots*, which are in this case 1 second long. During each slot, the following must happen:
+This is a *leader schedule*. A leader schedule is a sequence of adjacent time chunks called *slots*, where each slot has a designated leader (i.e., block producer). Note that in this example, slots are 1 second long. 
+
+During each slot, the following happens:
 1. The leader packages all user transactions into a block.
 2. The leader transmits this block.
 3. Validators forward the block until all validators have received it.
-4. Validators ensure that the block is valid and replay its transactions onto their own state.
-5. Validators attest to the block's validity by transmitting *votes*.
 
-We need votes because we need some way of deciding what is the *canonical state*. They are what allows us to say things like "I own 10 SOL" instead of things like "validators A, B, and C say I own 15 SOL but validators D, E, and F say I own 5."
+![slot activity](media/slot-activity.png)
 
-![slot activity](media/slot-activity.excalidraw.png)
+Remember that our slot times are 1 second long. What would happen if we made slots longer or shorter? 
 
-Remember that our slot times were 1 second long. This should be fine if all our validators have fast internet speeds and good hardware, but what if they don't? 
+Well, the obvious disadvantage of making them longer is that users would see more latency. If we made them, for example, 12 seconds long, some users might find it uncomfortable to stand there in silence with the person they are paying until the payment goes through.
 
-Imagine, for example, that it takes C 1 second just to process the block. If C has a fast internet speed, it may still be able to complete the whole process in 1.1 seconds. 
+*But* longer slot times can also prevent a pesky problem called *orphan blocks*. Suppose that 10% of the time, it takes 2 seconds for blocks to travel from A to B. In these cases, the block would not reach B until B's slot had already finished, so it would need to act like A had not produced a block. 
 
-In the first block, this will not be much of an issue. But by the time A and B process the 100th block, C will be processing the 91st block. This can create all kinds of havoc, including C not being able to lead during its designated time and the blockchain taking a long time to come to consensus on new blocks.
+For example, if this happens during slot 3, the blockchain would look like this after slot 4:
 
-Hence, in building a blockchain, we need to pick a sustainable slot time given the hardware and network speeds of our nodes. And we need to enforce that nodes are actually following this slot time.
+![fork](media/blockchain-fork.png)
 
-PoH is the enforcement mechanism on Solana.
+At this point, we have a fork in the network. Validator C (the green one) could decide to build off of either block 3 or 4, but not both.
 
+In general, forks are bad because they slow down the process of everyone coming to consensus on the blockchain's canonical state. If you sent a transaction to transfer tokens and it was included in block 3 but not block 4, while these forks are active you could no longer claim "I have x balance," you could only claim "these validators say I have x balance and these other validators say I have y balance."
 
+If we had raised our slot time to 5 seconds, this issue would not have occured because B would have received A's block in time. Hence, picking a slot time is a balance between reducing user latency and reducing forks.
+
+## PoH as a slot time enforcer
+
+Whatever slot time you pick, you will want to ensure that nodes are actually following that slot time. For example, it would not do much good if you raised the slot time to 5 seconds but validator B kept only waiting 1 second for A's block.
 
 [^1]: See *Whiteboard Series with NEAR | Ep: 2 Anatoly Yakovenko from Solana*, accessible here: https://youtu.be/rKGhbC6Uync.
