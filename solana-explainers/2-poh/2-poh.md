@@ -5,7 +5,7 @@ There are [8 key innovations](https://medium.com/solana-labs/7-innovations-that-
 Most people in the Solana ecosystem understand *how* PoH works, at least at a high-level (if you don't, I recommend this [video](https://youtu.be/rywOYfGu4EA). Few understand *why* it is needed. That's what we will unpack in this post.
 
 ## TL;DR:
-- Blockchains with leader schedules, such as Solana, require some mechanism to prevent leaders from 'jumping the gun' and transmitting blocks before their allotted time.
+- Blockchains with leader schedules, like Solana, require some mechanism to prevent leaders from 'jumping the gun' and transmitting blocks before their allotted time.
 - On blockchains with longer slot times, such as Ethereum, validators can simply ignore blocks that are too early or too late.
 - However, Solana targets 400ms times. Because of clock drift and propagation delay, the simple algorithm is no longer precise enough.
 - With PoH, validators can *prove* that they haven't jumped the gun in a way that validators can asynchronously verify. Hence, Solana can maintain 400ms slot times.
